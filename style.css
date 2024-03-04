@@ -1,0 +1,250 @@
+body,
+.text-content {
+  font-family: "Microsoft JhengHei", sans-serif;
+}
+
+.size-a3 {
+  width: 1589px;
+  height: 1122px;
+  /* border: 1px solid rgb(64, 61, 61); */
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  border: 1px solid black;
+  height: auto;
+  font-size: 10px;
+  text-align: center;
+}
+
+td {
+  border: 1px solid black;
+  font-size: 10px;
+  text-align: center;
+}
+
+.col1 {
+  width: 15px;
+}
+.col2 {
+  width: 83px;
+}
+.col3 {
+  width: 38px;
+}
+.col4 {
+  width: 28px;
+}
+.col5 {
+  width: 47px;
+}
+.col6 {
+  width: 181px;
+}
+.col7 {
+  width: 104px;
+}
+.col8 {
+  width: 57px;
+  background-color: rgb(235, 241, 222); /* 色碼 14610923 */
+}
+.col9 {
+  width: 57px;
+  background-color: rgb(235, 241, 222); /* 色碼 14610923 */
+}
+.col10 {
+  width: 57px;
+  background-color: rgb(235, 241, 222); /* 色碼 14610923 */
+}
+.col11 {
+  width: 28px;
+  background-color: rgb(235, 241, 222); /* 色碼 14610923 */
+}
+.col12 {
+  width: 28px;
+  background-color: rgb(235, 241, 222); /* 色碼 14610923 */
+}
+.col13 {
+  width: 28px;
+  background-color: rgb(235, 241, 222); /* 色碼 14610923 */
+}
+.col14 {
+  width: 28px;
+  background-color: rgb(235, 241, 222); /* 色碼 14610923 */
+}
+.col15 {
+  width: 57px;
+  background-color: rgb(255, 255, 0); /* 色碼 65535 */
+}
+.col16 {
+  width: 57px;
+  background-color: rgb(218, 238, 243); /* 色碼 15986394 */
+}
+.col17 {
+  width: 57px;
+  background-color: rgb(218, 238, 243); /* 色碼 15986394 */
+}
+.col18 {
+  width: 57px;
+  background-color: rgb(218, 238, 243); /* 色碼 15986394 */
+}
+.col19 {
+  width: 28px;
+  background-color: rgb(218, 238, 243); /* 色碼 15986394 */
+}
+.col20 {
+  width: 28px;
+  background-color: rgb(218, 238, 243); /* 色碼 15986394 */
+}
+.col21 {
+  width: 28px;
+  background-color: rgb(218, 238, 243); /* 色碼 15986394 */
+}
+.col22 {
+  width: 28px;
+  background-color: rgb(218, 238, 243); /* 色碼 15986394 */
+}
+.col23 {
+  width: 57px;
+  background-color: rgb(255, 255, 0); /* 色碼 65535 */
+}
+.col24 {
+  width: 57px;
+  background-color: rgb(242, 220, 219); /* 色碼 14408946 */
+}
+.col25 {
+  width: 57px;
+  background-color: rgb(242, 220, 219); /* 色碼 14408946 */
+}
+.col26 {
+  width: 28px;
+  background-color: rgb(242, 220, 219); /* 色碼 14408946 */
+}
+.col27 {
+  width: 28px;
+  background-color: rgb(242, 220, 219); /* 色碼 14408946 */
+}
+.col28 {
+  width: 28px;
+  background-color: rgb(242, 220, 219); /* 色碼 14408946 */
+}
+.col29 {
+  width: 28px;
+  background-color: rgb(242, 220, 219); /* 色碼 14408946 */
+}
+.col30 {
+  width: 28px;
+  background-color: rgb(242, 220, 219); /* 色碼 14408946 */
+}
+.col31 {
+  width: 57px;
+  background-color: rgb(255, 255, 0); /* 色碼 65535 */
+}
+
+.container {
+  width: 100%;
+  /* background-color: darkgray; */
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
+/* 幹事會階段 */
+.col7-d {
+  background-color: rgb(235, 241, 222); /* 色碼 14610923 */
+}
+.col8-d {
+  background-color: rgb(235, 241, 222); /* 色碼 14610923 */
+}
+.col9-d {
+  background-color: rgb(235, 241, 222); /* 色碼 14610923 */
+}
+.col10-d {
+  background-color: rgb(235, 241, 222); /* 色碼 14610923 */
+}
+.col11-d {
+  background-color: rgb(235, 241, 222); /* 色碼 14610923 */
+}
+.col12-d {
+  background-color: rgb(235, 241, 222); /* 色碼 14610923 */
+}
+.col13-d {
+  background-color: rgb(235, 241, 222); /* 色碼 14610923 */
+}
+.col14-d {
+  background-color: rgb(255, 255, 0); /* 色碼 65535 */
+  color: red;
+  font-size: 14;
+  font-weight: bold; /* 加粗字體 */
+}
+
+/* 委員會階段 */
+.col15-d {
+  background-color: rgb(218, 238, 243); /* 色碼 15986394 */
+}
+.col16-d {
+  background-color: rgb(218, 238, 243); /* 色碼 15986394 */
+}
+.col17-d {
+  background-color: rgb(218, 238, 243); /* 色碼 15986394 */
+}
+.col18-d {
+  background-color: rgb(218, 238, 243); /* 色碼 15986394 */
+}
+.col19-d {
+  background-color: rgb(218, 238, 243); /* 色碼 15986394 */
+}
+.col20-d {
+  background-color: rgb(218, 238, 243); /* 色碼 15986394 */
+}
+.col21-d {
+  background-color: rgb(218, 238, 243); /* 色碼 15986394 */
+}
+.col22-d {
+  background-color: rgb(255, 255, 0); /* 色碼 65535 */
+  color: red;
+  font-size: 14;
+  font-weight: bold; /* 加粗字體 */
+}
+
+/* 核定階段 */
+.col23-d {
+  background-color: rgb(242, 220, 219); /* 色碼 14408946 */
+}
+.col24-d {
+  background-color: rgb(242, 220, 219); /* 色碼 14408946 */
+}
+.col25-d {
+  background-color: rgb(242, 220, 219); /* 色碼 14408946 */
+}
+.col26-d {
+  background-color: rgb(242, 220, 219); /* 色碼 14408946 */
+}
+.col27-d {
+  background-color: rgb(242, 220, 219); /* 色碼 14408946 */
+}
+.col28-d {
+  background-color: rgb(242, 220, 219); /* 色碼 14408946 */
+}
+.col29-d {
+  background-color: rgb(242, 220, 219); /* 色碼 14408946 */
+}
+.col30-d {
+  background-color: rgb(255, 255, 0); /* 色碼 65535 */
+  color: red;
+  font-size: 14;
+  font-weight: bold; /* 加粗字體 */
+}
