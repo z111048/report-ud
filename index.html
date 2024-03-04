@@ -1,57 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant">
   <head>
     <meta charset="UTF-8" />
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
-    <title>Document</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>都市設計審議案件統計報表</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <section class="size-a3">
-        <p style="color: red">
-          113/02/04(備註：本表以高雄都審興革法令函頒日期 109/11/27
-          後掛號之案件進行統計)
-        </p>
-        <p>附表一 全員委員會案件統計表</p>
+    <header>
+      <h1>都市設計審議案件統計報表</h1>
+      <p>統計日期：113/2/22</p>
+    </header>
+
+    <section class="container">
+      <article class="size-A3">
         <table id="myTable">
-          <tr>
-            <th class="col1">項次</th>
-            <th class="col2">案名</th>
-            <th class="col3">承辦人</th>
-            <th class="col4">適用程序</th>
-            <th class="col5">案件階段</th>
-            <th class="col6">目前辦理進度</th>
-            <th class="col7">備註</th>
-            <th class="col8">掛件日期</th>
-            <th class="col9">幹事會會議日</th>
-            <th class="col10">會議紀錄發文日</th>
-            <th class="col11">審查流程天數</th>
-            <th class="col12">退補正日數</th>
-            <th class="col13">會辦日數</th>
-            <th class="col14">實際工作天數</th>
-            <th class="col15">都審興革後規定天數17-27天</th>
-            <th class="col16">掛件日期</th>
-            <th class="col17">委員會會議日</th>
-            <th class="col18">會議紀錄發文日</th>
-            <th class="col19">審查流程天數</th>
-            <th class="col20">退補正日數</th>
-            <th class="col21">會辦日數</th>
-            <th class="col22">實際工作天數</th>
-            <th class="col23">都審興革後規定天數17-37天</th>
-            <th class="col24">掛件日期</th>
-            <th class="col25">核定日期</th>
-            <th class="col26">核定流程天數</th>
-            <th class="col27">退補正日數</th>
-            <th class="col28">會辦日數</th>
-            <th class="col29">實際工作天數</th>
-            <th class="col30">全案總工作日數</th>
-            <th class="col31">都審興革後規定總天數34-64天</th>
-          </tr>
+          <caption>
+            <h3>附表一 全員委員會案件統計表</h3>
+          </caption>
+
+          <thead>
+            <tr>
+              <th class="col1" rowspan="2">項次</th>
+              <th class="col2" rowspan="2">案名</th>
+              <th class="col3" rowspan="2">承辦人</th>
+              <th class="col4" rowspan="2">適用程序</th>
+              <th class="col5" rowspan="2">案件階段</th>
+              <th class="col6" rowspan="2">目前辦理進度</th>
+              <th class="col7" rowspan="2">備註</th>
+              <th colspan="7" class="step1">幹事會</th>
+              <th class="step-check">檢核點</th>
+              <th colspan="7" class="step2">委員會</th>
+              <th class="step-check">檢核點</th>
+              <th colspan="6" class="step3">核定</th>
+              <th class="step3">總計</th>
+              <th class="step-check">檢核點</th>
+            </tr>
+            <tr>
+              <th class="col8">掛件日期</th>
+              <th class="col9">幹事會會議日</th>
+              <th class="col10">會議紀錄發文日</th>
+              <th class="col11">審查流程天數</th>
+              <th class="col12">退補正日數</th>
+              <th class="col13">會辦日數</th>
+              <th class="col14">實際工作天數</th>
+              <th class="col15">都審興革後規定天數17-27天</th>
+              <th class="col16">掛件日期</th>
+              <th class="col17">委員會會議日</th>
+              <th class="col18">會議紀錄發文日</th>
+              <th class="col19">審查流程天數</th>
+              <th class="col20">退補正日數</th>
+              <th class="col21">會辦日數</th>
+              <th class="col22">實際工作天數</th>
+              <th class="col23">都審興革後規定天數17-37天</th>
+              <th class="col24">掛件日期</th>
+              <th class="col25">核定日期</th>
+              <th class="col26">核定流程天數</th>
+              <th class="col27">退補正日數</th>
+              <th class="col28">會辦日數</th>
+              <th class="col29">實際工作天數</th>
+              <th class="col30">全案總工作日數</th>
+              <th class="col31">都審興革後規定總天數34-64天</th>
+            </tr>
+          </thead>
+
+          <tbody></tbody>
         </table>
-      </section>
-    </div>
+      </article>
+    </section>
+
+    <footer>
+      <p>版權所有 © 2024 OOXX公司. 所有權利保留。</p>
+    </footer>
 
     <script src="all.js"></script>
   </body>
